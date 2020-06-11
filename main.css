@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+    box-sizing:border-box;
+}
+
+li{
+
+}
+
+
+
+body{
+    font-family: roboto 'roboto';
+}
+
+main{
+  
+}
+
+.header{
+    width:100;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .img_background{
+   background-color: #745AF7;
+   width:60px;
+   height:55px;
+   border-radius: 50px;
+   display: flex;
+   margin-left: 53px;
+  
+}
+
+.header .img_background .logo{
+    margin: auto;
+}
+
+.header .page{
+    display: flex;
+}
+
+.header .page li{
+    font-family: roboto;
+    list-style: none;
+    font-size: 26px;
+    margin: 15px;
+}
+
+.header .page li a{
+    text-decoration: none;
+    padding: 10px 10px;
+}
+
+.purple_bacground{
+   position: relative;
+}
+
+ .purple_background .purple{
+    background: #B5A7FA;
+    height: 322px;
+}
+ 
+img.first_image{
+     display: block;
+     margin: 0 auto;
+     margin-top: -147px;
+ }
+
+ .search{
+     margin-top: 62px;
+ }
+
+ .search input{
+    width: 765px;
+    height: 74px;
+    border: 1px solid #080227;
+    border-radius: 10px;
+    margin-left: 195px;
+    padding: 19px 323px 13px 36px;
+ }
+
+ .search input::placeholder{
+    font-family: Roboto;
+    font-size: 36px;
+    color: rgba(8, 2, 39, 0.59);
+    }
+
+    .search button{
+       width: 240px;
+        height: 74px;
+        margin-left: 45px;
+        margin-right:192px;
+        background-color: #F5B943;
+        border: 1px  #F5B943;
+        border-radius: 10px;
+        color:#ffffff;
+        font-size:36px;
+        outline: none;
+    }
+    
+    .group{
+        display:flex;
+       align-items: center;
+    }
+
+    .group .card{
+        margin-top:86px;
+        margin-left: 195px;
+    }
+
+    .group .card .col_1 {
+          margin-bottom: 43px;
+    } 
+
+    .group .card .col_1 .second-image{
+        margin-left: 56px;
+    }
+
+    .group .bar{
+        margin-left: 202px;
+    }
+
+    .group .amount{
+        margin-top:15px;
+        margin-left: 44px;
+    }
+
+    .group .amount .amt{
+        font-size: 48px;
+        color: #6043F5;
+        line-height: 56px;
+        margin-top: -60px;
+        margin-bottom:25px;
+    }
+
+    .group .amount .cash{
+        font-size: 24px;
+        color: #000000;
+        line-height: 28px;
+        margin-bottom: 39px;
+    }
+
+    .group .amount .checkout{
+        width: 176px;
+        height: 44px;
+        border-radius: 10px;
+        background: #F5B943;
+        line-height: 28px;
+        border: 1px  #F5B943;
+        color: #FFFFFF;
+        outline: none;
+
+    }
+
+    footer{
+        background: #080227;
+        height: 218px;
+        display: flex;
+      align-items: center;
+    }
+
+    
+ footer .logo_background{
+    display: flex;
+    align-items: center;
+    width: 142px;
+    height: 140px;
+    border-radius: 70px;
+     background: #FFFFFF;
+     margin-top: 43px;
+     margin-left: 58px;
+     margin-bottom: 35px;
+}
+
+footer .logo_background img{
+    display:flex;
+    margin: 0 auto;
+}
+
+footer div.list ul.home li {
+    margin-left: 123px;
+    margin-bottom: 13px;
+    list-style: none;
+    }
+
+    footer .list ul.home li a{
+        font-size: 24px;
+        line-height: 28px;
+        color: #FFFFFF;
+        text-decoration: none;
+        }
+
+footer .contacts{
+    display:flex;
+}
+
+footer .contacts .contacts_img{
+    display: flex;
+    flex-direction: column;
+    margin-top: 33px;
+    margin-left: 123px;
+}
+
+footer .contacts .contacts_img img{
+    margin-bottom:22px ;
+}
+ footer .contacts .contact{
+     margin-top: 33px;
+ }
+
+footer .contacts .contact li{
+    margin-bottom:24px;
+   list-style: none;
+}
+
+footer .contacts .contact li a{
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: 28px;
+    margin-bottom:24px;
+    color: #FFFFFF;
+    text-decoration: none;
+    }
+
+    footer .social{
+        margin-top: -45px;
+        margin-left: 98px;
+    }
+
+    footer .social h3{
+       font-weight: bold;
+       font-size: 30px;
+       line-height: 35px;
+       margin-top: 0px;
+       margin-bottom: 28px;
+       color: #FFFFFF;
+      
+       }
+
+       footer .social .social_images{
+           margin-top: 28px;
+       }
+       
+      footer .social .social_images img{
+        margin-right: 42px;
+      }
+       
+        
